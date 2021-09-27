@@ -13,8 +13,8 @@ br are abbreviations of top left and bottom right respectively.
 
 ## Steps
 1. Choose right model for this project. 
-- From annotation file, I have to use "head" objects. It has information for  bounding box of Head. But it doesn't involve the bounding box of mask and helmet. So, I will use the bounding box information of head for mask and helmet validation.
-- I will use YOLOR which is the lasted object detection model and supports high-accuracy and faster speed than Yolov1-Yolv5.
+- From annotation file, I used "head" objects. It has information for  bounding box of Head. But it doesn't involve the bounding box of mask and helmet. So, I used the bounding box information of head for mask and helmet validation.
+- I used YOLOR which is the lastet object detection model and supports high-accuracy and faster speed than Yolov1-Yolv5.
 
 2. Preparing Annotation
 - From the xml offered, I have extracted proper information and made annotation files per each image.
